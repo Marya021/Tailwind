@@ -1075,6 +1075,11 @@ background-color: rgba(185, 28, 28, var(--tw-bg-opacity));
     background-color: rgb(29 78 216 / var(--tw-bg-opacity));
   }
 
+  .dark\:hover\:bg-yellow-400:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(251, 191, 36/ var(--tw-bg-opacity));
+  }
+
   .dark\:hover\:text-white:hover {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1187,6 +1192,15 @@ background-color: rgba(185, 28, 28, var(--tw-bg-opacity));
     color: rgb(29 78 216 / var(--tw-text-opacity));
   }
 
+  .md\:hover\:text-yellow-400:hover {
+    --tw-text-opacity: 1;
+    color: rgba(251, 191, 36, var(--tw-text-opacity));
+  }  
+
+  .md\:hover\:text-black:hover {
+    --tw-text-opacity: 1;
+    color: rgba(0, 0, 0, var(--tw-text-opacity));
+  } 
   @media (prefers-color-scheme: dark) {
     .md\:dark\:bg-gray-900 {
       --tw-bg-opacity: 1;
@@ -1211,5 +1225,6 @@ background-color: rgba(185, 28, 28, var(--tw-bg-opacity));
       --tw-text-opacity: 1;
       color: rgb(59 130 246 / var(--tw-text-opacity));
     }
+    
   }
 }
